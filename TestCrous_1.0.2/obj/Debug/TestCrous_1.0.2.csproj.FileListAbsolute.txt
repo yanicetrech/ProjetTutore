@@ -1,0 +1,8 @@
+c:\users\ty714391\documents\visual studio 2017\Projects\TestCrous_1.0.2\TestCrous_1.0.2\bin\Debug\TestCrous_1.0.2.exe.config
+c:\users\ty714391\documents\visual studio 2017\Projects\TestCrous_1.0.2\TestCrous_1.0.2\bin\Debug\TestCrous_1.0.2.exe
+c:\users\ty714391\documents\visual studio 2017\Projects\TestCrous_1.0.2\TestCrous_1.0.2\bin\Debug\TestCrous_1.0.2.pdb
+c:\users\ty714391\documents\visual studio 2017\Projects\TestCrous_1.0.2\TestCrous_1.0.2\bin\Debug\Newtonsoft.Json.dll
+c:\users\ty714391\documents\visual studio 2017\Projects\TestCrous_1.0.2\TestCrous_1.0.2\bin\Debug\Newtonsoft.Json.xml
+c:\users\ty714391\documents\visual studio 2017\Projects\TestCrous_1.0.2\TestCrous_1.0.2\obj\Debug\TestCrous_1.0.2.csprojResolveAssemblyReference.cache
+c:\users\ty714391\documents\visual studio 2017\Projects\TestCrous_1.0.2\TestCrous_1.0.2\obj\Debug\TestCrous_1.0.2.exe
+c:\users\ty714391\documents\visual studio 2017\Projects\TestCrous_1.0.2\TestCrous_1.0.2\obj\Debug\TestCrous_1.0.2.pdb
