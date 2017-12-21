@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Newtonsoft.Json;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -6,8 +7,12 @@ using System.Threading.Tasks;
 
 namespace TestCrous_1._0._2
 {
+    [Serializable]
     public class Category
     {
+        static Category cat = new Category(1,"grec",true);
+        string A = JsonConvert.SerializeObject(cat);
+
         private int _id { get; set; }
         private String _name { get; set; }
         private bool _isMenu { get; set; }
@@ -34,5 +39,12 @@ namespace TestCrous_1._0._2
                     "Name:" + Name +
                     "True:" + isMenu;
         }
+
+        public string getA()
+        {
+            return A;
+        }
+
+
     }
 }

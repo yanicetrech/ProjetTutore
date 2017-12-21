@@ -19,3 +19,16 @@ C:\Users\ty714391\Desktop\Tutorer_C#\Version\TestCrous_1.0.3\TestCrous_1.0.2\bin
 C:\Users\ty714391\Desktop\Tutorer_C#\Version\TestCrous_1.0.3\TestCrous_1.0.2\obj\Debug\TestCrous_1.0.3.csprojResolveAssemblyReference.cache
 C:\Users\ty714391\Desktop\Tutorer_C#\Version\TestCrous_1.0.3\TestCrous_1.0.2\obj\Debug\TestCrous_1.0.2.exe
 C:\Users\ty714391\Desktop\Tutorer_C#\Version\TestCrous_1.0.3\TestCrous_1.0.2\obj\Debug\TestCrous_1.0.2.pdb
+C:\Users\ty714391\Desktop\TestCrous_1.0.3\TestCrous_1.0.2\bin\Debug\TestCrous_1.0.2.exe.config
+C:\Users\ty714391\Desktop\TestCrous_1.0.3\TestCrous_1.0.2\bin\Debug\TestCrous_1.0.2.exe
+C:\Users\ty714391\Desktop\TestCrous_1.0.3\TestCrous_1.0.2\bin\Debug\TestCrous_1.0.2.pdb
+C:\Users\ty714391\Desktop\TestCrous_1.0.3\TestCrous_1.0.2\bin\Debug\Newtonsoft.Json.dll
+C:\Users\ty714391\Desktop\TestCrous_1.0.3\TestCrous_1.0.2\bin\Debug\RestSharp.dll
+C:\Users\ty714391\Desktop\TestCrous_1.0.3\TestCrous_1.0.2\bin\Debug\System.Net.Http.Extensions.dll
+C:\Users\ty714391\Desktop\TestCrous_1.0.3\TestCrous_1.0.2\bin\Debug\System.Net.Http.Primitives.dll
+C:\Users\ty714391\Desktop\TestCrous_1.0.3\TestCrous_1.0.2\bin\Debug\Newtonsoft.Json.xml
+C:\Users\ty714391\Desktop\TestCrous_1.0.3\TestCrous_1.0.2\bin\Debug\System.Net.Http.Extensions.xml
+C:\Users\ty714391\Desktop\TestCrous_1.0.3\TestCrous_1.0.2\bin\Debug\System.Net.Http.Primitives.xml
+C:\Users\ty714391\Desktop\TestCrous_1.0.3\TestCrous_1.0.2\obj\Debug\TestCrous_1.0.2.exe
+C:\Users\ty714391\Desktop\TestCrous_1.0.3\TestCrous_1.0.2\obj\Debug\TestCrous_1.0.2.pdb
+C:\Users\ty714391\Desktop\TestCrous_1.0.3\TestCrous_1.0.2\obj\Debug\TestCrous_1.0.3.csprojResolveAssemblyReference.cache

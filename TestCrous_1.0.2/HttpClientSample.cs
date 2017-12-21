@@ -4,24 +4,24 @@ using System.Net.Http;
 using System.Net.Http.Headers;
 using System.Threading.Tasks;
 
-namespace HttpClientSample
+namespace TestCrous_1._0._2
 {
-    public class Product
+    public class Productt
     {
-        public string Id { get; set; }
-        public string Name { get; set; }
-        public decimal Price { get; set; }
-        public string Category { get; set; }
+        public string id { get; set; }
+        public string name { get; set; }
+        public decimal price { get; set; }
+        public string category { get; set; }
     }
 
-    class Program
+    public class Http
     {
         static HttpClient client = new HttpClient();
 
-        static void ShowProduct(Product product)
+        static void ShowProduct(Productt productt)
         {
-            Console.WriteLine($"Name: {product.Name}\tPrice: " +
-                $"{product.Price}\tCategory: {product.Category}");
+            Console.WriteLine($"Name: {productt.name}\tPrice: " +
+                $"{productt.price}\tCategory: {productt.category}");
         }
 
         
@@ -37,7 +37,7 @@ namespace HttpClientSample
         static async Task RunAsync()
         {
             // Update port # in the following line.
-            client.BaseAddress = new Uri("169.254.242.49");
+            client.BaseAddress = new Uri("10.0.2.26");
             client.DefaultRequestHeaders.Accept.Clear();
             client.DefaultRequestHeaders.Accept.Add(
             new MediaTypeWithQualityHeaderValue("application/json"));
@@ -45,16 +45,11 @@ namespace HttpClientSample
             try
             {
                 // Create a new product
-                Product product = new Product
-                {
-                    Name = "Gizmo",
-                    Price = 100,
-                    Category = "Widgets"
-                };
-
+                Productt productt = new Productt();
+                
                
                 // Delete the product
-                var statusCode = await DeleteProductAsync(product.Id);
+                var statusCode = await DeleteProductAsync(productt.id);
                 Console.WriteLine($"Deleted (HTTP Status = {(int)statusCode})");
 
             }

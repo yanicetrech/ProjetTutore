@@ -16,12 +16,12 @@ using System.Runtime.Serialization.Json;
 namespace TestCrous_1._0._2
 {
    
-     public class Envoie 
+     public class Send 
     {
 
         // POST a JSON string
 
-        private string url = "http://169.254.242.49";
+        private string url = "http://10.0.2.26";
 
 
 

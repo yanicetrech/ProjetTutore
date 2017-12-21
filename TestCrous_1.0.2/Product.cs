@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Newtonsoft.Json;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -6,17 +7,24 @@ using System.Threading.Tasks;
 
 namespace TestCrous_1._0._2
 {
-    public class Produit
+    [Serializable]
+    public class Product
     {
+        static Product prod = new Product(1, "Americain", 6.5);
+       
+        string B = JsonConvert.SerializeObject(prod);
+
+        
+
         private int _id;
         private String _name;
-        private double _prix;
+        private double _price;
 
-        public Produit(int id, String name, double prix)
+        public Product(int id, String name, double prix)
         {
             _id = id;
             _name = name;
-            _prix = prix;
+            _price = prix;
         }
 
         public int Id
@@ -26,7 +34,7 @@ namespace TestCrous_1._0._2
         { get { return _name; } }
 
         public double Prix
-        { get { return _prix; } }
+        { get { return _price; } }
 
         public override String ToString()
         {
@@ -35,6 +43,10 @@ namespace TestCrous_1._0._2
                     "Prix:" + Prix;
         }
 
+        public string getB()
+        {
+            return B;
+        }
 
 
     }

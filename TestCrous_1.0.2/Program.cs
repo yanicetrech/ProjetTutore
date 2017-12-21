@@ -4,6 +4,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using Newtonsoft.Json;
+using System.Web.WebSockets;
+using System.Net.Sockets;
+using System.Net.WebSockets;
 
 namespace TestCrous_1._0._2
 {
@@ -11,22 +14,26 @@ namespace TestCrous_1._0._2
     {
         static void Main(string[] args)
         {
-            List<Produit> produit = new List<Produit>();
-            Category cat = new Category(1,"Sandwich",true);
-            Produit prod = new Produit(2, "Americain", 6.5);
-            Envoie env = new Envoie();
-            env.maMethodePost();
+            
+            List<Product> produit = new List<Product>();
+            Publisher pub = new Publisher();
+            Server serv = new Server();
 
-            string A = JsonConvert.SerializeObject(cat);
-            string B = JsonConvert.SerializeObject(prod);
-           // string C = JsonConvert.SerializeObject;
+            serv.Test();
+            // Http http = new Http();
+            //Send env = new Send();
+            //env.maMethodePost();
+           // Subscriber sub1 = new Subscriber("Le programme", pub);
+           // Call the method that raises the event.
+           // pub.DoSomething();
 
-            Console.WriteLine(A);
-            Console.WriteLine(B);
+      
+            Console.WriteLine("Press Enter to close this window.");
+            Console.ReadLine();
+
+
 
            
-
-            Console.ReadLine();
             
 
 

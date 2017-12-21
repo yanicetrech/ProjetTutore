@@ -1,0 +1,9 @@
+c:\users\ty714391\documents\visual studio 2017\Projects\WebAPI\WebAPI\bin\Debug\netcoreapp1.1\WebAPI.deps.json
+c:\users\ty714391\documents\visual studio 2017\Projects\WebAPI\WebAPI\bin\Debug\netcoreapp1.1\WebAPI.runtimeconfig.json
+c:\users\ty714391\documents\visual studio 2017\Projects\WebAPI\WebAPI\bin\Debug\netcoreapp1.1\WebAPI.runtimeconfig.dev.json
+c:\users\ty714391\documents\visual studio 2017\Projects\WebAPI\WebAPI\bin\Debug\netcoreapp1.1\WebAPI.dll
+c:\users\ty714391\documents\visual studio 2017\Projects\WebAPI\WebAPI\bin\Debug\netcoreapp1.1\WebAPI.pdb
+c:\users\ty714391\documents\visual studio 2017\Projects\WebAPI\WebAPI\obj\Debug\netcoreapp1.1\WebAPI.csprojResolveAssemblyReference.cache
+c:\users\ty714391\documents\visual studio 2017\Projects\WebAPI\WebAPI\obj\Debug\netcoreapp1.1\WebAPI.AssemblyInfo.cs
+c:\users\ty714391\documents\visual studio 2017\Projects\WebAPI\WebAPI\obj\Debug\netcoreapp1.1\WebAPI.dll
+c:\users\ty714391\documents\visual studio 2017\Projects\WebAPI\WebAPI\obj\Debug\netcoreapp1.1\WebAPI.pdb
